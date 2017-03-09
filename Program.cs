@@ -10,7 +10,13 @@ namespace Gittest
     {
         static void Main(string[] args)
         {
-            string s = ";dhd";
+            m1();
+            Console.ReadKey();
+        }
+
+        static void m1()
+        {
+            Console.WriteLine("feature 1");
         }
     }
 }
