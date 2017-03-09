@@ -17,6 +17,7 @@ namespace Gittest
         static void m1()
         {
             Console.WriteLine("feature 1");
+            Console.WriteLine("feature 1 bugfix");
         }
     }
 }
