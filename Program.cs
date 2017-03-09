@@ -11,12 +11,19 @@ namespace Gittest
         static void Main(string[] args)
         {
             m1();
+            m2();
             Console.ReadKey();
         }
 
         static void m1()
         {
-            Console.WriteLine("feature 1");
+            Console.WriteLine("feature 1 with feature 2 changes");
+
+        }
+
+        static void m2()
+        {
+            Console.WriteLine("feature 2");
         }
     }
 }
