@@ -23,7 +23,7 @@ namespace Gittest
 
         static void m2()
         {
-            Console.WriteLine("feature 2");
+            Console.WriteLine("feature 2 c1");
         }
     }
 }
